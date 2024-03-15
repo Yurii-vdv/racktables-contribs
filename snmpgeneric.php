@@ -1,10 +1,8 @@
 <?php
 /********************************************
  *
- * RackTables 0.20.x snmpgeneric extension v0.1
- *
- * needs PHP 5 >= 5.4.0 (SNMP Class)
- *
+ * RackTables 0.22.x snmpgeneric extension v0.1
+ * PHP 8.2
  *
  *	sync an RackTables object with an SNMP device.
  *
@@ -44,10 +42,10 @@
  *		7. repeat step 1. to 6. as often as you like / need
  *
  *
- * TESTED on FreeBSD 10.3, nginx/1.8.0, php 7, NET-SNMP 5.7.3
- *	and RackTables 0.20.12
+ *  TESTED on Ubuntu 0.22.04
  *
  * (c)2017 Maik Ehinger <github138@t-online.de>
+ * Yurii Yaranin <yranin@gmail.com>
  */
 
 /****
